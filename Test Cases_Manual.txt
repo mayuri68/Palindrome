@@ -23,11 +23,11 @@ Negative Case:
 
 1.) Input value of w <=0 and w> 20. Expected Output: Invalid Range
 
-2.) Input value of x>w and x <0 . Expected Output: Invalid Range
+2.) Input value of x>w and x <=0 . Expected Output: Invalid Range
 
-3.) Input value of y>w and y <0 . Expected Output: Invalid Range
+3.) Input value of y>w and y <=0 . Expected Output: Invalid Range
 
-4.) Input value of z>w and z <0 . Expected Output: Invalid Range
+4.) Input value of z>w and z <=0 . Expected Output: Invalid Range
 
 5.) Input w,x,y,z with any non-integer input( floating point, alphabet , special characters etc.). Expected Output : Input Invalid
 
