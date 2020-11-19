@@ -1,0 +1,35 @@
+Test Case:
+
+Positive Case:
+
+Boundary Value Analysis:
+
+1.)Input value of w=1 and x=1,y=0,z=0 , Expected Output: Valid Palindrome
+
+2.)Input value of w=20 and x=20,y=0,z=0, Expected Output: Valid Palindrome
+
+similarly perform the same test for x,y and z
+
+3.)Check with case where value of w=11 and x=1,y=3,z=7 .Expected Output: Invalid Palindrome
+
+4.)Check with case where value of w=11 and x=1,y=4,z=6 . Expected Output: Valid Palindrome
+
+5.)Check with case where value of w=10 and x=1,y=2,z=7 .Expected Output: Invalid Palindrome
+
+6.)Check with case where value of w=10 and x=2,y=2,z=6 .Expected Output: Valid Palindrome
+
+
+Negative Case:
+
+1.) Input value of w <=0 and w> 20. Expected Output: Invalid Range
+
+2.) Input value of x>w and x <0 . Expected Output: Invalid Range
+
+3.) Input value of y>w and y <0 . Expected Output: Invalid Range
+
+4.) Input value of z>w and z <0 . Expected Output: Invalid Range
+
+5.) Input w,x,y,z with any non-integer input( floating point, alphabet , special characters etc.). Expected Output : Input Invalid
+
+6.) Input w,x,y,z such that x+y+z!=w ex. w=20, x=10,y=10,z=10. Expected Output: Wrong Input.
+
